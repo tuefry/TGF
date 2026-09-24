@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TGF Dragons Basketball: Basketball, Fællesskab, Motion og Sjov" />
+  <title>TGF Dragons Basketball</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="index.html" aria-label="TGF Basketball home">
+        <img src="assets/img/round-logo-1.jpg" alt="" width="48" height="48" />
+        <span><strong>TGF DRAGONS</strong><small>BASKETBALL KLUB</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="klubben.html">Om klubben</a>
+        <a href="ny.html">Ny spiller?</a>
+        <a href="kalender.html">Kalender</a>
+        <a href="priser.html">Medlemspris</a>
+        <a href="kontakt.html">Kontakt</a>        
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="shell hero-content">
+        <p class="eyebrow">Tåstrup Gymnastik Forening, TGF · Siden 1931</p>
+        <h1>TGF Dragons<br /><br><em>Basketball, Fællesskab, Motion og Sjov</em></h1><br>
+        <p class="hero-copy">Kom og vær med!</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="klubben.html">Læs om klubben <span aria-hidden="true">→</span></a>
+          <a class="button button-primary" href="ny.html">Ny spiller? Her er hvad du gør <span aria-hidden="true">→</span></a>
+          <a class="button button-primary" href="kalender.html">Se næste kampe og events! <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-note"></span></div>
+      </div>
+      
+    </section>
+      <!-- <div class="hero-score" aria-label="Five teams and one club">
+        <span class="score-label">Teams strong</span>
+        <strong>05<span>·</span>01</strong>
+        <span class="score-label">One TGF club</span>
+      </div> -->
+
+    <!-- <section class="next-game" id="tickets">
+      <div class="shell next-game-grid">
+        <div><h2>Næste Event</h2><br><h2>Get ready!</h2></div>
+        <div class="matchup"><div class="team-chip"><img src="assets/img/round-logo-1.jpg" alt="" /> <span>U13 Stævne</span></div><strong></strong></div>
+        <div class="game-meta"><span>Søn, Okt 26 · 9:30 - 13.00</span><span>Feldballehallen</span></div>
+        <a class="button button-dark" href="kalender.html">Kalender <span aria-hidden="true">↗</span></a>
+      </div>
+    </section> -->
+
+    <section class="section" id="klubben">
+      <div class="shell">
+        <div class="section-heading"><div><p class="eyebrow orange">Teams</p><h2>Dragons hold</h2></div><p>Vores hold denne sæson.</p></div>
+        <div class="roster-grid">
+          <article class="player-card player-featured"><div class="player-number">Herre</div><div class="player-info"><span>Senior</span><h3>Senior Drager<br /></h3><p>Vejrbidte Herre i højt tempo!</p></div><div class="player-line"></div></article>
+          <article class="player-card player-blue"><div class="player-number">U17·U15·U13</div><div class="player-info"><span>Unge</span><h3>Unge Drager<br /></h3><p>Teknik, højt tempo og gejst!</p></div><div class="player-line"></div></article>
+          <article class="player-card player-orange"><div class="player-number">U11·U9</div><div class="player-info"><span>Yngste</span><h3>Yngste Drager<br /></h3><p>Fællesskab, Sjov og Leg!</p></div><div class="player-line"></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="facebook-feed" id="news">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow orange">Seneste nyt</p>
+            <h2>Følg os på<br />
+              <a href="https://www.facebook.com/TaastrupGF/" target="_blank" rel="noopener noreferrer">
+                <em>Facebook</em> <i class="fab fa-facebook"></i>
+              </a>
+            </h2>
+          </div>
+        </div>
+        <div class="fb-page" 
+             data-href="https://www.facebook.com/TaastrupGF" 
+             data-tabs="timeline" 
+             data-width="500" 
+             data-height="600" 
+             data-small-header="false" 
+             data-adapt-container-width="true" 
+             data-hide-cover="false" 
+             data-show-facepile="true">
+          <blockquote cite="https://www.facebook.com/TaastrupGF" class="fb-xfbml-parse-ignore">
+            <a href="https://www.facebook.com/TaastrupGF">Taastrup GF</a>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="kontakt"><div class="shell footer-inner"><a class="brand" href="#top"><img src="assets/img/round-logo-1.jpg" alt="" width="40" height="40" /><span><strong>TGF DRAGONS</strong><small>BASKETBALL KLUB</small></span></a><p>© <span id="year"></span> TGF Basketball. All in.</p><div class="social-links"><a href="https://www.facebook.com/TaastrupGF/" target="_blank">Facebook</a><i class="fab fa-facebook"></i></div></div></footer>
+
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v19.0"></script>
+</body>
+</html>

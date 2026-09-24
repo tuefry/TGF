@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="TGF Dragons Basketball kalender med kampe, træning og events."
+  />
+  <meta name="theme-color" content="#03440C" />
+  <title>Kalender | TGF Dragons Basketball</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="index.html" aria-label="TGF Basketball home">
+        <img src="assets/img/round-logo-1.jpg" alt="" width="48" height="48" />
+        <span>
+          <strong>TGF DRAGONS</strong>
+          <small>BASKETBALL KLUB</small>
+        </span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-nav"
+      >
+        Menu
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="klubben.html">Om klubben</a>
+        <a href="ny.html">Ny spiller?</a>
+        <a href="kalender.html">Kalender</a>
+        <a href="priser.html">Medlemspris</a>
+        <a href="kontakt.html">Kontakt</a>  
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="calendar-page">
+    <section
+      class="hero calendar-page-hero"
+      aria-labelledby="calendar-title"
+    >
+      <div class="shell hero-content calendar-hero-content">
+        <p class="eyebrow">Følg sæsonen</p>
+        <h1 id="calendar-title">Kalender</h1>
+        <p class="hero-copy">
+          Se kommende kampe, træninger og events for TGF Dragons.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="calendar-section"
+      id="kalender"
+      aria-labelledby="calendar-section-title"
+    >
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow orange">Fælles kalender</p>
+            <h2 id="calendar-section-title">
+              Kampe, træning<br /><em>og events.</em>
+            </h2>
+          </div>
+          <p>
+            Se de seneste aktiviteter for TGF Dragons. Kalenderen viser
+            mærkaterne <strong>Træning</strong>, <strong>Stævne</strong> og
+            <strong>Events</strong>.
+          </p>
+        </div>
+
+        <div class="google-calendar-frame">
+          <iframe
+            class="google-calendar"
+            title="Delt Google-kalender for TGF Dragons"
+            src="https://calendar.google.com/calendar/embed?src=c4b783b7c6029d9eb48bc78935a106a0569f5ac3c9d6161443b0212deefca49a%40group.calendar.google.com&amp;ctz=Europe%2FCopenhagen"
+            style="border: 0"
+            width="800"
+            height="600"
+            frameborder="0"
+            scrolling="no"
+            loading="eager"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
+
+        <div class="calendar-labels" aria-label="Kalendermærkater">
+          <span>Træning</span>
+          <span>Stævne</span>
+          <span>Events</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<footer class="site-footer" id="kontakt"><div class="shell footer-inner"><a class="brand" href="#top"><img src="assets/img/round-logo-1.jpg" alt="" width="40" height="40" /><span><strong>TGF DRAGONS</strong><small>BASKETBALL KLUB</small></span></a><p>© <span id="year"></span> TGF Basketball. All in.</p><div class="social-links"><a href="https://www.facebook.com/TaastrupGF/" target="_blank">Facebook</a><i class="fab fa-facebook"></i></div></div></footer>
+
+</body>
+</html>

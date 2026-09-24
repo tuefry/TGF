@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="TGF Dragons Basketball Priser for Medlemskab"
+  />
+  <meta name="theme-color" content="#03440C" />
+  <title>Priser for Medlemskab | TGF Dragons Basktball</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="index.html" aria-label="TGF Basketball home">
+        <img src="assets/img/round-logo-1.jpg" alt="" width="48" height="48" />
+        <span>
+          <strong>TGF DRAGONS</strong>
+          <small>BASKETBALL KLUB</small>
+        </span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-nav"
+      >
+        Menu
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="klubben.html">Om klubben</a>
+        <a href="ny.html">Ny spiller?</a>
+        <a href="kalender.html">Kalender</a>
+        <a href="priser.html">Medlemspris</a>
+        <a href="kontakt.html">Kontakt</a>  
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="calendar-page">
+    <section
+      class="hero calendar-page-hero"
+      aria-labelledby="calendar-title"
+    >
+      <div class="shell hero-content calendar-hero-content">
+        <p class="eyebrow">Priser for</p>
+        <h1 id="calendar-title">Medlemskab</h1>
+        <p class="hero-copy">
+          Se priser for medlemskab
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="calendar-section"
+      id="kalender"
+      aria-labelledby="calendar-section-title"
+    >
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow orange">Priser</p>
+            <h2 id="calendar-section-title">
+              Medlemskab<br /><em>i TGF Dragons Basketball klub</em>
+            </h2>
+          </div>
+          <p>
+            Se vores priser for medlemskab.
+          </p>
+        </div>
+        <table id="membership-table" class="pricing-table">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+        <p id="table-error" style="display:none; color: var(--blue); margin-top: 1rem;"></p>
+
+        <script>
+          // Paste your published Sheet1 CSV link here:
+          // Format: /pub?gid=0&single=true&output=csv  (NOT /pubhtml)
+          const sheetCsvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQOqhausomQGS9IaWlnnoC4yeirfFJ8JQPYx-obwhMYZVA0ND_fW1lja-cGoA6JZEdkAXMRxv2cB4PA/pub?gid=0&single=true&output=csv';
+
+          const tableHead = document.querySelector('#membership-table thead');
+          const tableBody = document.querySelector('#membership-table tbody');
+          const errorEl = document.querySelector('#table-error');
+
+          fetch(sheetCsvUrl)
+            .then(response => {
+              if (!response.ok) throw new Error('Network response was not ok');
+              return response.text();
+            })
+            .then(csvText => {
+              // Split rows by newline
+              const lines = csvText.trim().split(/\r?\n/);
+              
+              // Parse CSV cells (handles quoted values with commas)
+              const rows = lines.map(line => {
+                const cells = [];
+                let current = '';
+                let inQuotes = false;
+                
+                for (let i = 0; i < line.length; i++) {
+                  const char = line[i];
+                  if (char === '"') {
+                    if (inQuotes && line[i + 1] === '"') {
+                      current += '"';
+                      i++;
+                    } else {
+                      inQuotes = !inQuotes;
+                    }
+                  } else if (char === ',' && !inQuotes) {
+                    cells.push(current);
+                    current = '';
+                  } else {
+                    current += char;
+                  }
+                }
+                cells.push(current);
+                return cells;
+              });
+
+              // Build Headers
+              const headers = rows[0];
+              let headerHtml = '<tr>';
+              headers.forEach(header => {
+                const cleanHeader = header.replace(/^"|"$/g, '').trim();
+                headerHtml += `<th>${cleanHeader}</th>`;
+              });
+              headerHtml += '</tr>';
+              tableHead.innerHTML = headerHtml;
+
+              // Build Rows
+              let bodyHtml = '';
+              for (let i = 1; i < rows.length; i++) {
+                if (rows[i].length === 0) continue;
+                bodyHtml += '<tr>';
+                rows[i].forEach(cell => {
+                  const cleanCell = cell.replace(/^"|"$/g, '').trim();
+                  bodyHtml += `<td>${cleanCell}</td>`;
+                });
+                bodyHtml += '</tr>';
+              }
+              tableBody.innerHTML = bodyHtml;
+            })
+            .catch(error => {
+              console.error('Error loading pricing data:', error);
+              errorEl.textContent = 'Kunne ikke indlæse priser. Sørg for at Google Sheet er publiceret som CSV (Fil > Del > Publicér på webben > CSV-format).';
+              errorEl.style.display = 'block';
+            });
+        </script>
+
+        <!-- If above script doesn't work try this iframe solution -->
+        <!-- <div class="google-calendar-frame">
+          <iframe
+            src="https://docs.google.com/spreadsheets/d/1JVCy2oBiMjWZkN8cWmxQzE_YJz9UZQdfF0FlxXn1oXI/edit?usp=sharing"
+            width="100%" 
+            height="400" 
+            style="border: none;">
+          ></iframe>
+        </div> -->
+
+      </div>
+    </section>
+  </main>
+
+<footer class="site-footer" id="kontakt"><div class="shell footer-inner"><a class="brand" href="#top"><img src="assets/img/round-logo-1.jpg" alt="" width="40" height="40" /><span><strong>TGF DRAGONS</strong><small>BASKETBALL KLUB</small></span></a><p>© <span id="year"></span> TGF Basketball. All in.</p><div class="social-links"><a href="https://www.facebook.com/TaastrupGF/" target="_blank">Facebook</a><i class="fab fa-facebook"></i></div></div></footer>
+
+</body>
+</html>
