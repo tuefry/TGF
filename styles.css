@@ -120,7 +120,7 @@ h1 em, h2 em { color: var(--orange); font-style: italic; }
 .player-info p { margin: 0; }
 .player-line { position: absolute; bottom: 0; left: 0; width: 35%; height: 5px; background: var(--orange); }
 .player-blue .player-line { background: var(--orange); }.player-orange .player-line { background: var(--ink); }
-.player-card-logo { position: absolute; z-index: 1; top: 55px; right: 60px; width: 40%; max-width: 132px; height: auto; object-fit: contain; pointer-events: none; }
+.player-card-logo { position: absolute; z-index: 1; top: 30px; right: 48px; width: 40%; max-width: 160px; height: auto; object-fit: contain; pointer-events: none; }
 .schedule-section { padding: 100px 0; color: white; background: var(--navy); }
 .schedule-grid { display: grid; grid-template-columns: .75fr 1.3fr; gap: 11%; }
 .schedule-intro h2 { margin: 0 0 25px; font-size: clamp(45px, 6vw, 72px); line-height: .88; font-weight: 500; }
@@ -143,8 +143,8 @@ h1 em, h2 em { color: var(--orange); font-style: italic; }
 .facebook-feed .fb-page { max-width: 100%; }
 .facebook-feed .fb-page iframe { max-width: 100% !important; }
 
-@media (max-width: 800px) { .shell { width: min(100% - 32px, 600px); }.main-nav { display: none; position: absolute; top: 82px; right: 16px; flex-direction: column; align-items: stretch; gap: 0; padding: 14px; background: var(--navy); box-shadow: 0 10px 30px rgba(0,0,0,.22); }.main-nav.is-open { display: flex; }.main-nav a { padding: 12px; }.nav-button { margin-top: 8px; text-align: center; }.menu-toggle { display: block; }.hero { min-height: 660px; }.hero-content { padding-top: 150px; }.hero-score { right: 20px; bottom: 40px; }.hero-score strong { font-size: 50px; }.next-game-grid { grid-template-columns: 1fr 1fr; padding: 30px 0; }.game-meta { grid-column: 1 / 2; }.next-game .button { justify-self: end; }.section { padding: 75px 0; }.section-heading { display: block; }.section-heading > p { margin: 20px 0 0; }.roster-grid { grid-template-columns: 1fr; }.player-card { min-height: 290px; }.player-card-logo { top: 30px; right: 34px; max-width: 104px; }.schedule-section { padding: 75px 0; }.schedule-grid { grid-template-columns: 1fr; gap: 50px; }.newsletter-inner { display: block; }.signup-form { margin-top: 35px; }.footer-inner { flex-wrap: wrap; gap: 20px; }.footer-inner p { order: 3; width: 100%; }.social-links { margin-left: auto; } }
-@media (max-width: 500px) { h1 { font-size: 62px; }.hero-actions { align-items: flex-start; flex-direction: column; gap: 20px; }.hero-note { margin-top: 58px; }.hero-score { display: none; }.next-game-grid { grid-template-columns: 1fr; gap: 20px; }.next-game .button { justify-self: start; }.matchup { justify-content: flex-start; }.schedule-row { grid-template-columns: 42px 1fr auto; gap: 12px; }.game-time { display: none; }.status { min-width: auto; }.newsletter { padding: 65px 0; }.signup-form { flex-direction: column; border: 0; }.signup-form input { border-bottom: 1px solid var(--ink); }.signup-form button { align-self: flex-start; margin-top: 15px; }.social-links { width: 100%; margin-left: 0; }.footer-brands { flex-wrap: wrap; gap: 16px; } }
+@media (max-width: 800px) { .shell { width: min(100% - 32px, 600px); }.main-nav { display: none; position: absolute; top: 82px; right: 16px; flex-direction: column; align-items: stretch; gap: 0; padding: 14px; background: var(--navy); box-shadow: 0 10px 30px rgba(0,0,0,.22); }.main-nav.is-open { display: flex; }.main-nav a { padding: 12px; }.nav-button { margin-top: 8px; text-align: center; }.menu-toggle { display: block; }.hero { min-height: 660px; }.hero-content { padding-top: 150px; }.hero-score { right: 20px; bottom: 40px; }.hero-score strong { font-size: 50px; }.next-game-grid { grid-template-columns: 1fr 1fr; padding: 30px 0; }.game-meta { grid-column: 1 / 2; }.next-game .button { justify-self: end; }.section { padding: 75px 0; }.section-heading { display: block; }.section-heading > p { margin: 20px 0 0; }.roster-grid { grid-template-columns: 1fr; }.player-card { min-height: 290px; }.player-card-logo { top: 16px; right: 30px; max-width: 108px; }.schedule-section { padding: 75px 0; }.schedule-grid { grid-template-columns: 1fr; gap: 50px; }.newsletter-inner { display: block; }.signup-form { margin-top: 35px; }.footer-inner { flex-wrap: wrap; gap: 20px; }.footer-inner p { order: 3; width: 100%; }.social-links { margin-left: auto; } }
+@media (max-width: 500px) { h1 { font-size: 62px; }.hero-actions { align-items: flex-start; flex-direction: column; gap: 20px; }.hero-note { margin-top: 58px; }.hero-score { display: none; }.next-game-grid { grid-template-columns: 1fr; gap: 20px; }.next-game .button { justify-self: start; }.matchup { justify-content: flex-start; }.schedule-row { grid-template-columns: 42px 1fr auto; gap: 12px; }.game-time { display: none; }.status { min-width: auto; }.newsletter { padding: 65px 0; }.signup-form { flex-direction: column; border: 0; }.signup-form input { border-bottom: 1px solid var(--ink); }.signup-form button { align-self: flex-start; margin-top: 15px; }.social-links { width: 100%; margin-left: 0; }.footer-brands { flex-wrap: wrap; gap: 16px; }.player-card-logo { top: 14px; right: 26px; max-width: 100px; } }
 
 /* Calendar page */
 .calendar-page {
@@ -790,4 +790,70 @@ h1 em, h2 em { color: var(--orange); font-style: italic; }
 }
 .pricing-table tr:nth-child(even) {
   background-color: #f9f9f9;
+}
+/* Teamshop page */
+.shop-page {
+  background: var(--paper);
+}
+
+.shop-section {
+  padding: 90px 0 110px;
+  background: var(--paper);
+}
+
+.shop-panel {
+  padding: 42px;
+  color: white;
+  background: var(--navy);
+}
+
+.shop-panel h3 {
+  margin: 0 0 14px;
+  font-family: 'Graduate', 'Arial Narrow', sans-serif;
+  font-size: clamp(24px, 3.4vw, 34px);
+  line-height: 1.05;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.shop-panel p {
+  max-width: 560px;
+  margin: 0 0 28px;
+  color: rgba(255, 255, 255, .72);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.shop-panel .button {
+  background: var(--orange);
+}
+
+.shop-note {
+  display: block;
+  margin-top: 16px;
+  color: rgba(255, 255, 255, .5);
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+  .shop-section {
+    padding: 70px 0;
+  }
+
+  .shop-panel {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 500px) {
+  .shop-panel {
+    padding: 24px;
+  }
+
+  .shop-panel .button {
+    width: 100%;
+    justify-content: center;
+  }
 }
