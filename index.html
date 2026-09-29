@@ -6,6 +6,9 @@
   <meta name="description" content="TGF Dragons Basketball: Basketball, Fællesskab, Motion og Sjov" />
   <meta name="theme-color" content="#03440C" />
   <title>TGF Dragons Basketball</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Graduate&display=swap" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css" />
   <script defer src="script.js"></script>
@@ -14,7 +17,7 @@
   <header class="site-header">
     <div class="shell nav-wrap">
       <a class="brand" href="index.html" aria-label="TGF Basketball home">
-        <img src="assets/img/round-logo-1.jpg" alt="" width="48" height="48" />
+        <img src="assets/img/dragons_logo_thumb.png" alt="" width="48" height="48" />
         <span><strong>TGF DRAGONS</strong><small>BASKETBALL KLUB</small></span>
       </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
@@ -33,7 +36,7 @@
     <section class="hero page-hero">
       <div class="shell hero-content page-hero-content">
         <p class="eyebrow">Tåstrup Gymnastik Forening, TGF · Siden 1931</p>
-        <h1>TGF Dragons<em>Basketball, Fællesskab, Motion og Sjov</em></h1>
+        <h1 class="display-alfa shadow-offset-light">TGF DRAGONS<em>Basketball, Fællesskab, Motion og Sjov</em></h1>
         <p class="hero-copy">Kom og vær med!</p>
         <div class="hero-actions">
           <a class="button button-primary" href="klubben.html">Læs om klubben <span aria-hidden="true">→</span></a>
@@ -63,9 +66,9 @@
       <div class="shell">
         <div class="section-heading"><div><p class="eyebrow orange">Teams</p><h2>Dragons hold</h2></div><p>Vores hold denne sæson.</p></div>
         <div class="roster-grid">
-          <article class="player-card player-featured"><div class="player-number">Senior</div><div class="player-info"><span>Senior</span><h3>Senior Drager<br /></h3><p>Vejrbidte Herre i højt tempo!</p></div><div class="player-line"></div></article>
-          <article class="player-card player-blue"><div class="player-number">U13·U15·U17</div><div class="player-info"><span>Unge</span><h3>Unge Drager<br /></h3><p>Teknik, højt tempo og gejst!</p></div><div class="player-line"></div></article>
-          <article class="player-card player-orange"><div class="player-number">U9·U11</div><div class="player-info"><span>Yngste</span><h3>Yngste Drager<br /></h3><p>Fællesskab, Sjov og Leg!</p></div><div class="player-line"></div></article>
+          <article class="player-card player-featured"><img class="player-card-logo" src="assets/img/old_dragon.png" alt="" width="140" height="186" /><div class="player-number">Senior</div><div class="player-info"><span>Senior</span><h3>Senior Drager<br /></h3><p>Vejrbidte Herre i højt tempo!</p></div><div class="player-line"></div></article>
+          <article class="player-card player-blue"><img class="player-card-logo" src="assets/img/dragon_basketball_logo.png" alt="" width="140" height="186" /><div class="player-number">U13·U15·U17</div><div class="player-info"><span>Unge</span><h3>Unge Drager<br /></h3><p>Teknik, højt tempo og gejst!</p></div><div class="player-line"></div></article>
+          <article class="player-card player-orange"><img class="player-card-logo" src="assets/img/dragon_basketball_logo.png" alt="" width="140" height="186" /><div class="player-number">U9·U11</div><div class="player-info"><span>Yngste</span><h3>Yngste Drager<br /></h3><p>Fællesskab, Sjov og Leg!</p></div><div class="player-line"></div></article>
         </div>
       </div>
     </section>
@@ -99,7 +102,7 @@
     </section>
   </main>
 
-  <footer class="site-footer" id="kontakt"><div class="shell footer-inner"><a class="brand" href="#top"><img src="assets/img/round-logo-1.jpg" alt="" width="40" height="40" /><span><strong>TGF DRAGONS</strong><small>BASKETBALL KLUB</small></span></a><p>© <span id="year"></span> TGF Basketball. All in.</p><div class="social-links"><a href="https://www.facebook.com/TaastrupGF/" target="_blank">Facebook</a><i class="fab fa-facebook"></i></div></div></footer>
+  <footer class="site-footer" id="kontakt"><div class="shell footer-inner"><div class="footer-brands"><a class="brand" href="index.html"><img src="assets/img/dragons_logo_thumb.png" alt="" width="40" height="40" /><span><strong>TGF DRAGONS</strong><small>BASKETBALL KLUB</small></span></a><div class="brand footer-brand-parent"><img src="assets/img/tgf.png" alt="" width="40" height="40" /><span><strong>Tåstrup Gymnastik Forening</strong></span></div></div><p>© <span id="year"></span> TGF Basketball. All in.</p><div class="social-links"><a href="https://www.facebook.com/TaastrupGF/" target="_blank">Facebook</a><i class="fab fa-facebook"></i></div></div></footer>
 
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v19.0"></script>
