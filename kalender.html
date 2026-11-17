@@ -11,7 +11,9 @@
   <title>Kalender | TGF Dragons Basketball</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@latest/main.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.22/main.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.22/main.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fullcalendar/interaction@6.1.22/main.min.css" />
   <script defer src="script.js"></script>
 </head>
 
@@ -87,47 +89,82 @@
 
   <footer class="site-footer" id="kontakt"><div class="shell footer-inner"><div class="footer-brands"><a class="brand" href="kalender.html"><img src="assets/img/dragons_logo_thumb.png" alt="" width="40" height="40" /><span><strong>TGF DRAGONS</strong><small>BASKETBALL KLUB</small></span></a><div class="brand footer-brand-parent"><img src="assets/img/tgf.png" alt="" width="40" height="40" /><span><strong>Tåstrup Gymnastik Forening</strong></span></div></div><p>© <span id="year"></span> TGF Basketball. All in.</p><div class="social-links"><a href="https://www.facebook.com/TaastrupGF/" target="_blank">Facebook</a><i class="fab fa-facebook"></i></div></div></footer>
 
-  <!-- 1. Include iCal.js and FullCalendar (Global Bundle + iCalendar Plugin) -->
-  <script src="https://cdn.jsdelivr.net/npm/ical.js@latest/dist/ical.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@latest/main.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/ical@latest/main.min.js"></script>
-  <!-- Optional: Danish locale for FullCalendar buttons & month names -->
-  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@latest/locales/da.min.js"></script>
+  <!-- 1. iCal.js (UMD/ES5 build, defines window.ICAL) -->
+  <script src="https://cdn.jsdelivr.net/npm/ical.js@2.2.1/dist/ical.es5.min.cjs"></script>
 
-  <!-- 3. Initialize FullCalendar with 3 Holdsport Feeds -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var calendarEl = document.getElementById('calendar');
+  <!-- 2. FullCalendar v6 via ES modules (global UMD bundle not available on CDN) -->
+  <script type="module">
+    import { Calendar } from 'https://esm.sh/@fullcalendar/core@6.1.22';
+    import dayGridPlugin from 'https://esm.sh/@fullcalendar/daygrid@6.1.22';
+    import interactionPlugin from 'https://esm.sh/@fullcalendar/interaction@6.1.22';
+    import daLocale from 'https://esm.sh/@fullcalendar/core@6.1.22/es2022/locales/da.mjs';
 
-      var calendar = new FullCalendar.Calendar(calendarEl, {
-        locale: 'da',
-        initialView: 'dayGridMonth',
-        firstDay: 1, // Start week on Monday
-        headerToolbar: {
-          left: 'prev,next today',
-          center: 'title',
-          right: 'dayGridMonth,timeGridWeek,listMonth'
-        },
-        eventSources: [
-          {
-            url: 'https://www.holdsport.dk/activities.ics?hide_pickup_time=true&team_id=152179&token=n2qwTKw4M5%2FgBeP4Z%2BsiTw%3D%3D&v=1',
-            format: 'ics',
-            color: '#d9232e' // Team 1 color (e.g., Red for TGF Dragons)
-          },
-          {
-            url: 'https://www.holdsport.dk/activities.ics?hide_pickup_time=true&team_id=287037&token=VzWMH5NTYrT5dnTzZyTvew%3D%3D&v=1',
-            format: 'ics',
-            color: '#1e293b' // Team 2 color (e.g., Dark Slate)
-          },
-          // {
-          //   url: 'https://holdsport.dk',
-          //   format: 'ics',
-          //   color: '#eab308' // Team 3 color (e.g., Gold/Yellow)
-          // } // link3 will be provided later
-        ]
-      });
+    Calendar.registerPlugin([dayGridPlugin, interactionPlugin]);
+    Calendar.registerLocale(daLocale.default);
 
-      calendar.render();
+    const calendarEl = document.getElementById('calendar');
+    const calendar = new Calendar(calendarEl, {
+      locale: 'da',
+      initialView: 'dayGridMonth',
+      firstDay: 1, // Uge starter mandag
+      headerToolbar: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'dayGridMonth,timeGridWeek,listMonth'
+      },
+      height: 'auto',
+      expandRows: true
+    });
+    calendar.render();
+
+    // 3. Holdsport ICS feeds
+    const feeds = [
+      {
+        url: 'https://www.holdsport.dk/activities.ics?hide_pickup_time=true&team_id=152179&token=n2qwTKw4M5%2FgBeP4Z%2BsiTw%3D%3D&v=1',
+        color: '#d9232e'
+      },
+      {
+        url: 'https://www.holdsport.dk/activities.ics?hide_pickup_time=true&team_id=287037&token=VzWMH5NTYrT5dnTzZyTvew%3D%3D&v=1',
+        color: '#1e293b'
+      },
+      // link3 indsættes når den er tilgængelig:
+      // {
+      //   url: 'https://www.holdsport.dk/activities.ics?...',
+      //   color: '#eab308'
+      // }
+    ];
+
+    feeds.forEach(feed => {
+      fetch(feed.url)
+        .then(response => {
+          if (!response.ok) throw new Error('HTTP ' + response.status);
+          return response.text();
+        })
+        .then(text => {
+          try {
+            const jcal = window.ICAL.parse(text);
+            const vcalendar = new window.ICAL.Component(jcal[0]);
+            const vevents = vcalendar.getAllSubcomponents('vevent');
+            const events = vevents.map(vevent => {
+              const dtstart = vevent.getFirstPropertyValue('dtstart');
+              const dtend = vevent.getFirstPropertyValue('dtend');
+              const allDay = dtstart ? dtstart.dateOnly : false;
+              return {
+                title: vevent.getFirstPropertyValue('summary') || 'Arrangement',
+                start: dtstart ? dtstart.toJSDate() : null,
+                end: dtend ? dtend.toJSDate() : null,
+                allDay: allDay,
+                color: feed.color
+              };
+            }).filter(event => event.start);
+            calendar.addEventSource(events);
+          } catch (error) {
+            console.error('Kunne ikke fortolke ICS for ' + feed.url, error);
+          }
+        })
+        .catch(error => {
+          console.error('Kunne ikke hente ICS fra ' + feed.url, error);
+        });
     });
   </script>
 </body>
