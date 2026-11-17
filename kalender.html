@@ -11,6 +11,7 @@
   <title>Kalender | TGF Dragons Basketball</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@latest/main.min.css" />
   <script defer src="script.js"></script>
 </head>
 
@@ -73,31 +74,61 @@
           </p>
         </div>
 
-        <div class="google-calendar-frame">
-          <iframe
-            class="google-calendar"
-            title="Delt Google-kalender for TGF Dragons"
-            src="https://calendar.google.com/calendar/embed?src=c4b783b7c6029d9eb48bc78935a106a0569f5ac3c9d6161443b0212deefca49a%40group.calendar.google.com&amp;ctz=Europe%2FCopenhagen"
-            style="border: 0"
-            width="800"
-            height="600"
-            frameborder="0"
-            scrolling="no"
-            loading="eager"
-            referrerpolicy="strict-origin-when-cross-origin"
-          ></iframe>
-        </div>
-
         <div class="calendar-labels" aria-label="Kalendermærkater">
           <span>Træning</span>
           <span>Stævne</span>
           <span>Event</span>
         </div>
+
+        <div id="calendar" style="max-width: 1100px; margin: 2rem auto;"></div>
       </div>
     </section>
   </main>
 
-<footer class="site-footer" id="kontakt"><div class="shell footer-inner"><div class="footer-brands"><a class="brand" href="kalender.html"><img src="assets/img/dragons_logo_thumb.png" alt="" width="40" height="40" /><span><strong>TGF DRAGONS</strong><small>BASKETBALL KLUB</small></span></a><div class="brand footer-brand-parent"><img src="assets/img/tgf.png" alt="" width="40" height="40" /><span><strong>Tåstrup Gymnastik Forening</strong></span></div></div><p>© <span id="year"></span> TGF Basketball. All in.</p><div class="social-links"><a href="https://www.facebook.com/TaastrupGF/" target="_blank">Facebook</a><i class="fab fa-facebook"></i></div></div></footer>
+  <footer class="site-footer" id="kontakt"><div class="shell footer-inner"><div class="footer-brands"><a class="brand" href="kalender.html"><img src="assets/img/dragons_logo_thumb.png" alt="" width="40" height="40" /><span><strong>TGF DRAGONS</strong><small>BASKETBALL KLUB</small></span></a><div class="brand footer-brand-parent"><img src="assets/img/tgf.png" alt="" width="40" height="40" /><span><strong>Tåstrup Gymnastik Forening</strong></span></div></div><p>© <span id="year"></span> TGF Basketball. All in.</p><div class="social-links"><a href="https://www.facebook.com/TaastrupGF/" target="_blank">Facebook</a><i class="fab fa-facebook"></i></div></div></footer>
 
+  <!-- 1. Include iCal.js and FullCalendar (Global Bundle + iCalendar Plugin) -->
+  <script src="https://cdn.jsdelivr.net/npm/ical.js@latest/dist/ical.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@latest/main.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/ical@latest/main.min.js"></script>
+  <!-- Optional: Danish locale for FullCalendar buttons & month names -->
+  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@latest/locales/da.min.js"></script>
+
+  <!-- 3. Initialize FullCalendar with 3 Holdsport Feeds -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var calendarEl = document.getElementById('calendar');
+
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        locale: 'da',
+        initialView: 'dayGridMonth',
+        firstDay: 1, // Start week on Monday
+        headerToolbar: {
+          left: 'prev,next today',
+          center: 'title',
+          right: 'dayGridMonth,timeGridWeek,listMonth'
+        },
+        eventSources: [
+          {
+            url: 'https://www.holdsport.dk/activities.ics?hide_pickup_time=true&team_id=152179&token=n2qwTKw4M5%2FgBeP4Z%2BsiTw%3D%3D&v=1',
+            format: 'ics',
+            color: '#d9232e' // Team 1 color (e.g., Red for TGF Dragons)
+          },
+          {
+            url: 'https://www.holdsport.dk/activities.ics?hide_pickup_time=true&team_id=287037&token=VzWMH5NTYrT5dnTzZyTvew%3D%3D&v=1',
+            format: 'ics',
+            color: '#1e293b' // Team 2 color (e.g., Dark Slate)
+          },
+          // {
+          //   url: 'https://holdsport.dk',
+          //   format: 'ics',
+          //   color: '#eab308' // Team 3 color (e.g., Gold/Yellow)
+          // } // link3 will be provided later
+        ]
+      });
+
+      calendar.render();
+    });
+  </script>
 </body>
 </html>
