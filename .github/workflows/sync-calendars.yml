@@ -1,0 +1,35 @@
+name: Sync Calendars
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # every hour
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+
+      - name: Download ICS feeds
+        run: |
+          mkdir -p data
+          curl -fsSL -o data/team1.ics 'https://www.holdsport.dk/activities.ics?hide_pickup_time=true&team_id=152179&token=n2qwTKw4M5%2FgBeP4Z%2BsiTw%3D%3D&v=1' || true
+          curl -fsSL -o data/team2.ics 'https://www.holdsport.dk/activities.ics?hide_pickup_time=true&team_id=287037&token=VzWMH5NTYrT5dnTzZyTvew%3D%3D&v=1' || true
+          # link3 will be added here when the URL is provided:
+          # curl -fsSL -o data/team3.ics 'LINK3' || true
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No calendar changes"
+          else
+            git commit -m "chore: sync calendars $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
