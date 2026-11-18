@@ -17,18 +17,20 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
-      - name: Download ICS feeds
+      - name: Download and sanitize ICS feeds
         run: |
           mkdir -p data
-          curl -fsSL -o data/team1.ics 'https://holdsport.dk'
-          curl -fsSL -o data/team2.ics 'https://holdsport.dk'
-          # Add team 3 later:
-          # curl -fsSL -o data/team3.ics 'LINK3'
+          curl -fsSL 'https://www.holdsport.dk/activities.ics?hide_pickup_time=true&team_id=152179&token=n2qwTKw4M5%2FgBeP4Z%2BsiTw%3D%3D&v=1' \
+            | awk '/^ATTENDEE/{skip=1;next} skip && /^[ \t]/{next} {skip=0;print}' > data/team1.ics
+          curl -fsSL 'https://www.holdsport.dk/activities.ics?hide_pickup_time=true&team_id=287037&token=VzWMH5NTYrT5dnTzZyTvew%3D%3D&v=1' \
+            | awk '/^ATTENDEE/{skip=1;next} skip && /^[ \t]/{next} {skip=0;print}' > data/team2.ics
+          # Add team 3 later by uncommenting below:
+          # curl -fsSL 'LINK3' | awk '/^ATTENDEE/{skip=1;next} skip && /^[ \t]/{next} {skip=0;print}' > data/team3.ics
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@://github.com"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
           if git diff --cached --quiet; then
             echo "No calendar changes"
