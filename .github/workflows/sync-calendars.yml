@@ -56,6 +56,7 @@ jobs:
 
           for feed in FEEDS:
               if not os.path.exists(feed["file"]):
+                  print(f"Missing file: {feed['file']}")
                   continue
 
               with open(feed["file"], "r", encoding="utf-8", errors="replace") as f:
@@ -104,6 +105,7 @@ jobs:
                       elif prop_name == "DTEND":
                           ev["end"], _ = parse_ical_dt(val)
 
+          print(f"Total parsed events: {len(all_events)}")
           with open("data/events.json", "w", encoding="utf-8") as f:
               json.dump(all_events, f, ensure_ascii=False, indent=2)
           EOF
