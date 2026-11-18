@@ -8,6 +8,8 @@
     content="TGF Dragons Basketball kalender med kampe, træning og events."
   />
   <meta name="theme-color" content="#03440C" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Kalender | TGF Dragons Basketball</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  
   <link rel="stylesheet" href="styles.css" />
@@ -87,55 +89,59 @@
   <footer class="site-footer" id="kontakt"><div class="shell footer-inner"><div class="footer-brands"><a class="brand" href="kalender.html"><img src="assets/img/dragons_logo_thumb.png" alt="" width="40" height="40" /><span><strong>TGF DRAGONS</strong><small>BASKETBALL KLUB</small></span></a><div class="brand footer-brand-parent"><img src="assets/img/tgf.png" alt="" width="40" height="40" /><span><strong>Tåstrup Gymnastik Forening</strong></span></div></div><p>© <span id="year"></span> TGF Basketball. All in.</p><div class="social-links"><a href="https://www.facebook.com/TaastrupGF/" target="_blank">Facebook</a><i class="fab fa-facebook"></i></div></div></footer>
 
   <!-- 1. FullCalendar v6 Core + Danish locale -->
-  <script src="https://jsdelivr.net"></script>
-  <script src="https://jsdelivr.net"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.6.0/dist/fullcalendar.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.6.0/dist/locales/da.js"></script>
 
   <!-- 2. Official FullCalendar iCalendar plugin (bundles its own compatible iCal parser) -->
-  <script src="https://jsdelivr.net"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.6.0/dist/fullcalendar-ical.min.js"></script>
+
+  <div id="calendar"></div>
 
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var calendarEl = document.getElementById('calendar');
+      document.addEventListener('DOMContentLoaded', function() {
+          var calendarEl = document.getElementById('calendar');
 
-      var calendar = new FullCalendar.Calendar(calendarEl, {
-        locale: 'da',
-        initialView: 'dayGridMonth',
-        firstDay: 1,
-        headerToolbar: {
-          left: 'prev,next today',
-          center: 'title',
-          right: 'dayGridMonth,timeGridWeek,listMonth'
-        },
-        height: 'auto',
-        eventTimeFormat: {
-          hour: '2-digit',
-          minute: '2-digit',
-          hour12: false
-        },
-        eventSources: [
-          {
-            url: './data/team1.ics',
-            format: 'ics',
-            color: '#d9232e'
-          },
-          {
-            url: './data/team2.ics',
-            format: 'ics',
-            color: '#1e293b'
-          }
-          // Add team 3 later:
-          // { url: './data/team3.ics', format: 'ics', color: '#eab308' }
-        ],
-        eventClick: function(info) {
-          if (info.event.url) {
-            info.jsEvent.preventDefault();
-            window.open(info.event.url, '_blank', 'noopener');
-          }
-        }
+          var calendar = new FullCalendar.Calendar(calendarEl, {
+              locale: 'da',
+              initialView: 'dayGridMonth',
+              firstDay: 1,
+              headerToolbar: {
+                  left: 'prev,next today',
+                  center: 'title',
+                  right: 'dayGridMonth,timeGridWeek,listMonth'
+              },
+              height: 'auto',
+              eventTimeFormat: {
+                  hour: '2-digit',
+                  minute: '2-digit',
+                  hour12: false
+              },
+              eventSources: [
+                  {
+                      url: './data/team1.ics',
+                      format: 'ics',
+                      color: '#d9232e',
+                      parse: true
+                  },
+                  {
+                      url: './data/team2.ics',
+                      format: 'ics',
+                      color: '#1e293b',
+                      parse: true
+                  }
+                  // Add team 3 later:
+                  // { url: './data/team3.ics', format: 'ics', color: '#eab308' }
+              ],
+              eventClick: function(event) {
+                  if (event.event.url) {
+                      event.jsEvent.preventDefault();
+                      window.open(event.event.url, '_blank', 'noopener');
+                  }
+              }
+          });
+
+          calendar.render();
       });
-
-      calendar.render();
-    });
   </script>
 </body>
 </html>
