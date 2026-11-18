@@ -8,17 +8,6 @@ DTEND;VALUE=DATE-TIME:20260815T140000Z
 DTSTART;VALUE=DATE-TIME:20260815T120000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260815T054050Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
 UID:activity56553083@holdsport
 DESCRIPTION:\nMødetid: 13:50\nMødested: Feldballe hallen
 URL:https://www.holdsport.dk/activities/56553083
@@ -32,17 +21,6 @@ DTEND;VALUE=DATE-TIME:20260817T140000Z
 DTSTART;VALUE=DATE-TIME:20260817T130000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260814T162033Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
 UID:activity56553086@holdsport
 DESCRIPTION:\nMødetid: 14:55
 URL:https://www.holdsport.dk/activities/56553086
@@ -56,17 +34,6 @@ DTEND;VALUE=DATE-TIME:20260819T160000Z
 DTSTART;VALUE=DATE-TIME:20260819T150000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260820T010155Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
 UID:activity56587050@holdsport
 DESCRIPTION:\nMødetid: 16:55
 URL:https://www.holdsport.dk/activities/56587050
@@ -80,19 +47,6 @@ DTEND;VALUE=DATE-TIME:20260824T140000Z
 DTSTART;VALUE=DATE-TIME:20260824T130000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260819T151936Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
 UID:activity56553087@holdsport
 DESCRIPTION:\nMødetid: 14:55
 URL:https://www.holdsport.dk/activities/56553087
@@ -106,21 +60,6 @@ DTEND;VALUE=DATE-TIME:20260901T140000Z
 DTSTART;VALUE=DATE-TIME:20260901T130000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260901T195901Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56860116@holdsport
 DESCRIPTION:\nMødetid: 14:55
 URL:https://www.holdsport.dk/activities/56860116
@@ -134,21 +73,6 @@ DTEND;VALUE=DATE-TIME:20260902T160000Z
 DTSTART;VALUE=DATE-TIME:20260902T150000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260901T195522Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56860040@holdsport
 DESCRIPTION:\nMødetid: 16:55
 URL:https://www.holdsport.dk/activities/56860040
@@ -162,21 +86,6 @@ DTEND;VALUE=DATE-TIME:20260907T140000Z
 DTSTART;VALUE=DATE-TIME:20260907T130000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260908T010233Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56860083@holdsport
 DESCRIPTION:\nMødetid: 14:55
 URL:https://www.holdsport.dk/activities/56860083
@@ -190,21 +99,6 @@ DTEND;VALUE=DATE-TIME:20260909T160000Z
 DTSTART;VALUE=DATE-TIME:20260909T150000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260908T160952Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56860088@holdsport
 DESCRIPTION:\nMødetid: 16:55
 URL:https://www.holdsport.dk/activities/56860088
@@ -218,23 +112,6 @@ DTEND;VALUE=DATE-TIME:20260914T140000Z
 DTSTART;VALUE=DATE-TIME:20260914T130000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260915T010233Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56860109@holdsport
 DESCRIPTION:\nMødetid: 14:55
 URL:https://www.holdsport.dk/activities/56860109
@@ -248,23 +125,6 @@ DTEND;VALUE=DATE-TIME:20260916T160000Z
 DTSTART;VALUE=DATE-TIME:20260916T150000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260917T010220Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
 UID:activity56860110@holdsport
 DESCRIPTION:\nMødetid: 16:55
 URL:https://www.holdsport.dk/activities/56860110
@@ -278,25 +138,6 @@ DTEND;VALUE=DATE-TIME:20260921T140000Z
 DTSTART;VALUE=DATE-TIME:20260921T130000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260916T172538Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56860156@holdsport
 DESCRIPTION:\nMødetid: 14:55
 URL:https://www.holdsport.dk/activities/56860156
@@ -310,25 +151,6 @@ DTEND;VALUE=DATE-TIME:20260923T160000Z
 DTSTART;VALUE=DATE-TIME:20260923T150000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260924T010219Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bertram Knudsen:mailto
- :Camilla-knudsen@outlook.dk
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
 UID:activity56860149@holdsport
 DESCRIPTION:\nMødetid: 16:55
 URL:https://www.holdsport.dk/activities/56860149
@@ -342,14 +164,6 @@ DTEND;VALUE=DATE-TIME:20260923T181500Z
 DTSTART;VALUE=DATE-TIME:20260923T164500Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260921T044903Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bertram Knudsen:mailto
- :Camilla-knudsen@outlook.dk
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
 UID:activity56877510@holdsport
 DESCRIPTION:🐉🏀 FÆLLESSPISNING I TGF BASKETBALL 🏀🐉\n\nEfter træningen onsd
  ag den 23. september samles vi til en hyggelig aften med god mad\, grin 
@@ -386,17 +200,6 @@ DTEND;VALUE=DATE-TIME:20260927T110000Z
 DTSTART;VALUE=DATE-TIME:20260927T080000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260925T193218Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56934065@holdsport
 DESCRIPTION:Kamp program:\n\nKl. 09.30 - mødetid i hallen\nKl. 10.00 - ka
  mp mod B71 Holstebro\nKl. 11.00 - kamp mod Hadsten Hawks\nKl. 12.00 - ka
@@ -416,29 +219,6 @@ DTEND;VALUE=DATE-TIME:20260928T140000Z
 DTSTART;VALUE=DATE-TIME:20260928T130000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260927T181435Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Oskar Simonsen:mailto:
- lykkegaardsimonsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
 UID:activity56860185@holdsport
 DESCRIPTION:\nMødetid: 14:55
 URL:https://www.holdsport.dk/activities/56860185
@@ -452,29 +232,6 @@ DTEND;VALUE=DATE-TIME:20260930T160000Z
 DTSTART;VALUE=DATE-TIME:20260930T150000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260930T143135Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Oskar Simonsen:mailto:
- lykkegaardsimonsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
 UID:activity56860198@holdsport
 DESCRIPTION:\nMødetid: 16:55
 URL:https://www.holdsport.dk/activities/56860198
@@ -488,31 +245,6 @@ DTEND;VALUE=DATE-TIME:20261005T140000Z
 DTSTART;VALUE=DATE-TIME:20261005T130000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260925T192935Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Oskar Simonsen:mailto:
- lykkegaardsimonsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56860238@holdsport
 DESCRIPTION:\nMødetid: 14:55
 URL:https://www.holdsport.dk/activities/56860238
@@ -526,31 +258,6 @@ DTEND;VALUE=DATE-TIME:20261007T160000Z
 DTSTART;VALUE=DATE-TIME:20261007T150000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20261007T142651Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Kasper Andersen:mailto
- :kasperbasket1986@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Oskar Simonsen:mailto:
- lykkegaardsimonsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
 UID:activity56860247@holdsport
 DESCRIPTION:\nMødetid: 16:55
 URL:https://www.holdsport.dk/activities/56860247
@@ -564,33 +271,6 @@ DTEND;VALUE=DATE-TIME:20261012T160000Z
 DTSTART;VALUE=DATE-TIME:20261012T150000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20261006T110012Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Kasper Andersen:mailto
- :kasperbasket1986@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Oskar Simonsen:mailto:
- lykkegaardsimonsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56860257@holdsport
 DESCRIPTION:\nMødetid: 16:55
 URL:https://www.holdsport.dk/activities/56860257
@@ -604,27 +284,6 @@ DTEND;VALUE=DATE-TIME:20261014T160000Z
 DTSTART;VALUE=DATE-TIME:20261014T150000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20261014T122326Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Kasper Andersen:mailto
- :kasperbasket1986@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Oskar Simonsen:mailto:
- lykkegaardsimonsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
 UID:activity56860265@holdsport
 DESCRIPTION:\nMødetid: 16:55
 URL:https://www.holdsport.dk/activities/56860265
@@ -638,33 +297,6 @@ DTEND;VALUE=DATE-TIME:20261019T140000Z
 DTSTART;VALUE=DATE-TIME:20261019T130000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20261014T061516Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Kasper Andersen:mailto
- :kasperbasket1986@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Oskar Simonsen:mailto:
- lykkegaardsimonsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56860273@holdsport
 DESCRIPTION:\nMødetid: 14:55
 URL:https://www.holdsport.dk/activities/56860273
@@ -678,33 +310,6 @@ DTEND;VALUE=DATE-TIME:20261021T160000Z
 DTSTART;VALUE=DATE-TIME:20261021T150000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20261006T110012Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bertram Knudsen:mailto
- :Camilla-knudsen@outlook.dk
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Kasper Andersen:mailto
- :kasperbasket1986@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Oskar Simonsen:mailto:
- lykkegaardsimonsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
 UID:activity56860284@holdsport
 DESCRIPTION:\nMødetid: 16:55
 URL:https://www.holdsport.dk/activities/56860284
@@ -718,31 +323,6 @@ DTEND;VALUE=DATE-TIME:20261026T150000Z
 DTSTART;VALUE=DATE-TIME:20261026T140000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20261022T182036Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Kasper Andersen:mailto
- :kasperbasket1986@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Oskar Simonsen:mailto:
- lykkegaardsimonsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56860286@holdsport
 DESCRIPTION:\nMødetid: 14:55
 URL:https://www.holdsport.dk/activities/56860286
@@ -756,33 +336,6 @@ DTEND;VALUE=DATE-TIME:20261028T170000Z
 DTSTART;VALUE=DATE-TIME:20261028T160000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20261006T110012Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bertram Knudsen:mailto
- :Camilla-knudsen@outlook.dk
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Kasper Andersen:mailto
- :kasperbasket1986@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Oskar Simonsen:mailto:
- lykkegaardsimonsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
 UID:activity56860289@holdsport
 DESCRIPTION:\nMødetid: 16:55
 URL:https://www.holdsport.dk/activities/56860289
@@ -796,27 +349,6 @@ DTEND;VALUE=DATE-TIME:20261101T130000Z
 DTSTART;VALUE=DATE-TIME:20261101T083000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20261027T165714Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Kasper Andersen:mailto
- :kasperbasket1986@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Oskar Simonsen:mailto:
- lykkegaardsimonsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56859971@holdsport
 DESCRIPTION:Program:\nkl. 09.30 - mødetid\nkl. 09.45 - opvarming\nkl. 10.
  00 - kamp mod Skødstrup Pumas\nkl. 11.00 - kamp mod Lystrup Lions\nkl. 1
@@ -836,27 +368,6 @@ DTEND;VALUE=DATE-TIME:20261102T150000Z
 DTSTART;VALUE=DATE-TIME:20261102T140000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20261102T135351Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Kasper Andersen:mailto
- :kasperbasket1986@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56860299@holdsport
 DESCRIPTION:\nMødetid: 14:55
 URL:https://www.holdsport.dk/activities/56860299
@@ -870,35 +381,6 @@ DTEND;VALUE=DATE-TIME:20261109T150000Z
 DTSTART;VALUE=DATE-TIME:20261109T140000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20261031T190819Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Frederik Nielsen:mailt
- o:Bettina_h_nielsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Kasper Andersen:mailto
- :kasperbasket1986@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Oskar Simonsen:mailto:
- lykkegaardsimonsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56860303@holdsport
 DESCRIPTION:\nMødetid: 14:55
 URL:https://www.holdsport.dk/activities/56860303
@@ -912,35 +394,6 @@ DTEND;VALUE=DATE-TIME:20261111T170000Z
 DTSTART;VALUE=DATE-TIME:20261111T160000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20261110T170956Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bertram Knudsen:mailto
- :Camilla-knudsen@outlook.dk
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Frederik Nielsen:mailt
- o:Bettina_h_nielsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Kasper Andersen:mailto
- :kasperbasket1986@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56860305@holdsport
 DESCRIPTION:\nMødetid: 16:55
 URL:https://www.holdsport.dk/activities/56860305
@@ -954,33 +407,6 @@ DTEND;VALUE=DATE-TIME:20261116T150000Z
 DTSTART;VALUE=DATE-TIME:20261116T140000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20261116T134949Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Frederik Nielsen:mailt
- o:Bettina_h_nielsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Kasper Andersen:mailto
- :kasperbasket1986@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Oskar Simonsen:mailto:
- lykkegaardsimonsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56860306@holdsport
 DESCRIPTION:\nMødetid: 14:55
 URL:https://www.holdsport.dk/activities/56860306
@@ -992,64 +418,21 @@ END:VEVENT
 BEGIN:VEVENT
 DTEND;VALUE=DATE-TIME:20261118T170000Z
 DTSTART;VALUE=DATE-TIME:20261118T160000Z
-DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
-LAST-MODIFIED;VALUE=DATE-TIME:20261116T090304Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Frederik Nielsen:mailt
- o:Bettina_h_nielsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Kasper Andersen:mailto
- :kasperbasket1986@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Oskar Simonsen:mailto:
- lykkegaardsimonsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
+DTSTAMP;VALUE=DATE-TIME:20261118T091105Z
+LAST-MODIFIED;VALUE=DATE-TIME:20261118T055900Z
 UID:activity56860309@holdsport
 DESCRIPTION:\nMødetid: 16:55
 URL:https://www.holdsport.dk/activities/56860309
 SUMMARY:🏀 U9-U11 træning🏀
 LOCATION:Feldballe hallen
 COMMENT:\nMødetid: 16:55
-SEQUENCE:1794819784
+SEQUENCE:1794981540
 END:VEVENT
 BEGIN:VEVENT
 DTEND;VALUE=DATE-TIME:20261121T120000Z
 DTSTART;VALUE=DATE-TIME:20261121T100000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20261117T100008Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Frederik Nielsen:mailt
- o:Bettina_h_nielsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56859973@holdsport
 DESCRIPTION:Program:\nKl. 10.30 - mødetid\nKl. 11.00 - kamp mod Skovbakke
  n Bears\nKl. 12.00 - kamp mod Skødstrup  \nKl. 13.00 - stævnet slut\n\nM
@@ -1067,37 +450,6 @@ DTEND;VALUE=DATE-TIME:20261216T173000Z
 DTSTART;VALUE=DATE-TIME:20261216T160000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20261029T185739Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Anton Højhus:mailto:so
- fiehojhus@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Axel Mikkelsen:mailto:
- runemikkelsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bertram Knudsen:mailto
- :Camilla-knudsen@outlook.dk
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bjørn Svigaris Fryland
- :mailto:kristina.svigaryte@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Flemming Jul Mogensen:
- mailto:flemsejul2@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Frederik Nielsen:mailt
- o:Bettina_h_nielsen@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Halfdan Slot Nissen:mailto:Slotbertelsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Kasper Andersen:mailto
- :kasperbasket1986@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Milton Fisker Taustrup
- :mailto:faergevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Oskar Simonsen:mailto:
- lykkegaardsimonsen@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebastian Aarenstrup:m
- ailto:stefan.aarenstrup@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tom Fisker:mailto:faer
- gevej@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Tue Fryland:mailto:tfr
- yland@gmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Victor Pedersen:mailto
- :Hvorfornetto@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56951337@holdsport
 DESCRIPTION:Husk en gave til en værdi af 40 kr. 🎄🎁\n\nMødetid: 16:55
 URL:https://www.holdsport.dk/activities/56951337
@@ -1111,10 +463,6 @@ DTEND;VALUE=DATE-TIME:20270116T230000Z
 DTSTART;VALUE=DATE-TIME:20270115T230000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260927T094539Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Villads Gru Sørensen:m
- ailto:Gittegrusoerensen@gmail.com
 UID:activity56859982@holdsport
 URL:https://www.holdsport.dk/activities/56859982
 SUMMARY:U11 Grand Prix\, runde 4
@@ -1126,8 +474,6 @@ DTEND;VALUE=DATE-TIME:20270306T230000Z
 DTSTART;VALUE=DATE-TIME:20270305T230000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260914T183956Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
 UID:activity56860015@holdsport
 URL:https://www.holdsport.dk/activities/56860015
 SUMMARY:U11 Grand Prix\, runde 5
@@ -1139,8 +485,6 @@ DTEND;VALUE=DATE-TIME:20270410T220000Z
 DTSTART;VALUE=DATE-TIME:20270409T220000Z
 DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260914T184023Z
-ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sigurd Overgaard Blond
- :mailto:blond_nina@hotmail.com
 UID:activity56860024@holdsport
 URL:https://www.holdsport.dk/activities/56860024
 SUMMARY:U11 Grand Prix\, runde 6
