@@ -87,11 +87,9 @@
 
   <footer class="site-footer" id="kontakt"><div class="shell footer-inner"><div class="footer-brands"><a class="brand" href="kalender.html"><img src="assets/img/dragons_logo_thumb.png" alt="" width="40" height="40" /><span><strong>TGF DRAGONS</strong><small>BASKETBALL KLUB</small></span></a><div class="brand footer-brand-parent"><img src="assets/img/tgf.png" alt="" width="40" height="40" /><span><strong>Tåstrup Gymnastik Forening</strong></span></div></div><p>© <span id="year"></span> TGF Basketball. All in.</p><div class="social-links"><a href="https://www.facebook.com/TaastrupGF/" target="_blank">Facebook</a><i class="fab fa-facebook"></i></div></div></footer>
 
-    <!-- FullCalendar v5 global bundle + Danish locale -->
-  <script src="https://unpkg.com/fullcalendar@5.11.5/main.min.js"></script>
-  <script src="https://unpkg.com/fullcalendar@5.11.5/locales/da.min.js"></script>
-  <!-- iCal.js UMD/ES5 global build (attaches window.ICAL without ES module 'export') -->
-  <script src="https://jsdelivr.net"></script>
+  <!-- FullCalendar v5 global bundle + Danish locale -->
+  <script src="https://unpkg.com"></script>
+  <script src="https://unpkg.com"></script>
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -112,6 +110,7 @@
           minute: '2-digit',
           hour12: false
         },
+        events: './data/events.json?t=' + Math.floor(Date.now() / 600000),
         eventClick: function(info) {
           if (info.event.url) {
             info.jsEvent.preventDefault();
@@ -119,52 +118,8 @@
           }
         }
       });
+
       calendar.render();
-
-      var feeds = [
-        { file: './data/team1.ics', color: '#d9232e', team: 'U9/U11' },
-        { file: './data/team2.ics', color: '#1e293b', team: 'U13' }
-      ];
-
-      feeds.forEach(function(feed) {
-        // Cache-busting query string ensures visitors see the latest hourly sync
-        fetch(feed.file + '?t=' + Math.floor(Date.now() / 600000))
-          .then(function(response) {
-            if (!response.ok) throw new Error('HTTP ' + response.status);
-            return response.text();
-          })
-          .then(function(text) {
-            var jcal = ICAL.parse(text);
-            var vcalendar = new ICAL.Component(jcal);
-            var vevents = vcalendar.getAllSubcomponents('vevent');
-
-            var events = vevents.map(function(vevent) {
-              var dtstart = vevent.getFirstPropertyValue('dtstart');
-              var dtend = vevent.getFirstPropertyValue('dtend');
-              var summary = vevent.getFirstPropertyValue('summary') || 'Arrangement';
-              var location = vevent.getFirstPropertyValue('location') || '';
-              var url = vevent.getFirstPropertyValue('url') || '';
-
-              return {
-                title: summary,
-                start: dtstart ? dtstart.toJSDate() : null,
-                end: dtend ? dtend.toJSDate() : null,
-                allDay: dtstart ? Boolean(dtstart.isDate) : false,
-                url: url,
-                color: feed.color,
-                extendedProps: {
-                  location: location,
-                  team: feed.team
-                }
-              };
-            }).filter(function(e) { return e.start; });
-
-            calendar.addEventSource(events);
-          })
-          .catch(function(error) {
-            console.error('Fejl ved indlæsning af ' + feed.file + ':', error);
-          });
-      });
     });
   </script>
 </body>
