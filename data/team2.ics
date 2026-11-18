@@ -1,0 +1,359 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+X-WR-CALNAME;VALUE=TEXT:U13 TGF Basketball
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20260524T215900Z
+DTSTART;VALUE=DATE-TIME:20260523T160000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260501T132456Z
+UID:activity54033048@holdsport
+URL:https://www.holdsport.dk/activities/54033048
+SUMMARY:AFLYST: U13 Pinse stævne
+LOCATION:Vejlby-Risskov hallen
+SEQUENCE:1777641896
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20260815T140000Z
+DTSTART;VALUE=DATE-TIME:20260815T120000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260814T165619Z
+UID:activity56553149@holdsport
+URL:https://www.holdsport.dk/activities/56553149
+SUMMARY:Åbent hus - opstart
+LOCATION:Feldballe hallen
+SEQUENCE:1786726579
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20260817T163000Z
+DTSTART;VALUE=DATE-TIME:20260817T150000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260814T161537Z
+UID:activity56384551@holdsport
+DESCRIPTION:\nMødetid: 16:50
+URL:https://www.holdsport.dk/activities/56384551
+SUMMARY:AFLYST: U13 practice 
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:50
+SEQUENCE:1786724137
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20260819T163000Z
+DTSTART;VALUE=DATE-TIME:20260819T150000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260820T010135Z
+UID:activity56384757@holdsport
+DESCRIPTION:\nMødetid: 16:50\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/56384757
+SUMMARY:U13 🏀practice - OPSTART
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:50\nMødested: Hallen
+SEQUENCE:1787187695
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20260824T163000Z
+DTSTART;VALUE=DATE-TIME:20260824T150000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260819T205317Z
+UID:activity56384806@holdsport
+DESCRIPTION:\nMødetid: 16:50\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/56384806
+SUMMARY:U13 practice
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:50\nMødested: Hallen
+SEQUENCE:1787172797
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20260826T163000Z
+DTSTART;VALUE=DATE-TIME:20260826T150000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260827T010137Z
+UID:activity56384839@holdsport
+DESCRIPTION:\nMødetid: 16:50\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/56384839
+SUMMARY:U13 practice
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:50\nMødested: Hallen
+SEQUENCE:1787792497
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20260831T163000Z
+DTSTART;VALUE=DATE-TIME:20260831T150000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260901T010151Z
+UID:activity56384849@holdsport
+DESCRIPTION:\nMødetid: 16:50\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/56384849
+SUMMARY:U13 practice
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:50\nMødested: Hallen
+SEQUENCE:1788224511
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20260902T163000Z
+DTSTART;VALUE=DATE-TIME:20260902T150000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260831T155942Z
+UID:activity56384935@holdsport
+DESCRIPTION:\nMødetid: 16:50\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/56384935
+SUMMARY:U13 practice
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:50\nMødested: Hallen
+SEQUENCE:1788191982
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20260907T163000Z
+DTSTART;VALUE=DATE-TIME:20260907T150000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260908T010152Z
+UID:activity56384937@holdsport
+DESCRIPTION:\nMødetid: 16:50\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/56384937
+SUMMARY:U13 practice
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:50\nMødested: Hallen
+SEQUENCE:1788829312
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20260909T163000Z
+DTSTART;VALUE=DATE-TIME:20260909T150000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260907T150056Z
+UID:activity56384938@holdsport
+DESCRIPTION:\nMødetid: 16:50\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/56384938
+SUMMARY:U13 practice
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:50\nMødested: Hallen
+SEQUENCE:1788793256
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20260914T163000Z
+DTSTART;VALUE=DATE-TIME:20260914T150000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260914T135620Z
+UID:activity56384944@holdsport
+DESCRIPTION:\nMødetid: 16:50\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/56384944
+SUMMARY:U13 practice
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:50\nMødested: Hallen
+SEQUENCE:1789394180
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20260916T163000Z
+DTSTART;VALUE=DATE-TIME:20260916T150000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260912T065435Z
+UID:activity56384981@holdsport
+DESCRIPTION:\nMødetid: 16:50\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/56384981
+SUMMARY:U13 practice
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:50\nMødested: Hallen
+SEQUENCE:1789196075
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20260921T163000Z
+DTSTART;VALUE=DATE-TIME:20260921T150000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260912T065435Z
+UID:activity56555979@holdsport
+DESCRIPTION:\nMødetid: 16:50\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/56555979
+SUMMARY:U13 practice
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:50\nMødested: Hallen
+SEQUENCE:1789196075
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20260923T163000Z
+DTSTART;VALUE=DATE-TIME:20260923T150000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260912T065435Z
+UID:activity56555981@holdsport
+DESCRIPTION:\nMødetid: 16:50\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/56555981
+SUMMARY:U13 practice
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:50\nMødested: Hallen
+SEQUENCE:1789196075
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20260923T181500Z
+DTSTART;VALUE=DATE-TIME:20260923T164500Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260923T140000Z
+UID:activity56877407@holdsport
+DESCRIPTION:🐉🏀 FÆLLESSPISNING I TGF BASKETBALL 🏀🐉\n\nEfter træningen onsd
+ ag den 23. september samles vi til en hyggelig aften med god mad\, grin 
+ og masser af TGF-fællesskab! 💚🖤\n\n👨‍👩‍👧‍👦 Spillere og familie er meget 
+ velkomne!\n\n📅 Onsdag den 23. september\n⏰ Efter træning – kl. 18.45\n💰 
+ Pris: 50 kr. pr. person\n💧 Vand på bordet\n🥤 Sodavand kan købes\n\n🍝 MEN
+ U\n• Pasta med kødsovs og gulerødder i skiver\n• Æbletærte med cremefrai
+ che 🍎\n\n📲 Tilmelding og betaling:\nDorthe Hansen\n☎️ 27 20 66 15\n\n⏳ S
+ U. senest mandag den 21. september\n\n🔥 Kom og vær med – for basketball 
+ handler ikke kun om det\, vi laver på banen. Det handler også om fælless
+ kabet omkring den!\n\nSAMMEN ER VI DRAGONS! 🐉💚🏀\n\n#TGFDragons #TGFBaske
+ tball #Fællesskab #Fællesspisning #BasketballPåDjursland #SammenErViDrag
+ ons #DragonsFamily #DragonsLair\n\nMødetid: 18:45\nMødested: Hallens Caf
+ éen
+URL:https://www.holdsport.dk/activities/56877407
+SUMMARY:Fællesspisning 
+LOCATION:Feldballe hallen
+COMMENT:🐉🏀 FÆLLESSPISNING I TGF BASKETBALL 🏀🐉\n\nEfter træningen onsdag d
+ en 23. september samles vi til en hyggelig aften med god mad\, grin og m
+ asser af TGF-fællesskab! 💚🖤\n\n👨‍👩‍👧‍👦 Spillere og familie er meget velk
+ omne!\n\n📅 Onsdag den 23. september\n⏰ Efter træning – kl. 18.45\n💰 Pris
+ : 50 kr. pr. person\n💧 Vand på bordet\n🥤 Sodavand kan købes\n\n🍝 MENU\n•
+  Pasta med kødsovs og gulerødder i skiver\n• Æbletærte med cremefraiche 
+ 🍎\n\n📲 Tilmelding og betaling:\nDorthe Hansen\n☎️ 27 20 66 15\n\n⏳ SU. s
+ enest mandag den 21. september\n\n🔥 Kom og vær med – for basketball hand
+ ler ikke kun om det\, vi laver på banen. Det handler også om fællesskabe
+ t omkring den!\n\nSAMMEN ER VI DRAGONS! 🐉💚🏀\n\n#TGFDragons #TGFBasketbal
+ l #Fællesskab #Fællesspisning #BasketballPåDjursland #SammenErViDragons 
+ #DragonsFamily #DragonsLair\n\nMødetid: 18:45\nMødested: Hallens Caféen
+SEQUENCE:1790172000
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20261004T110000Z
+DTSTART;VALUE=DATE-TIME:20261004T080000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20261003T064409Z
+UID:activity56936333@holdsport
+DESCRIPTION:Program:\n\nKl. 09.30 - mødetid\nKl. 09.15 - opvarming\nKl. 1
+ 0.00 - kamp mod Viborg Wildcats \nKl. 11.00 - Viborg mod Skovbakken Bear
+ s\nKl. 12.00 - kamp mod Skovbakken Bears\nKl. 13.00 - ca. færdig\n\nMøde
+ tid: 09:30\nMødested: Feldballe hallen
+URL:https://www.holdsport.dk/activities/56936333
+SUMMARY:U13🏀 Grand Prix Stævne. Runde 1
+LOCATION:Feldballe hallen
+COMMENT:Program:\n\nKl. 09.30 - mødetid\nKl. 09.15 - opvarming\nKl. 10.00
+  - kamp mod Viborg Wildcats \nKl. 11.00 - Viborg mod Skovbakken Bears\nK
+ l. 12.00 - kamp mod Skovbakken Bears\nKl. 13.00 - ca. færdig\n\nMødetid:
+  09:30\nMødested: Feldballe hallen
+SEQUENCE:1791009849
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20261005T163000Z
+DTSTART;VALUE=DATE-TIME:20261005T150000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20261005T111154Z
+UID:activity57093599@holdsport
+DESCRIPTION:\nMødetid: 16:50\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/57093599
+SUMMARY:U13🏀 practice
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:50\nMødested: Hallen
+SEQUENCE:1791198714
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20261007T163000Z
+DTSTART;VALUE=DATE-TIME:20261007T150000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20261006T092940Z
+UID:activity57093605@holdsport
+DESCRIPTION:\nMødetid: 16:50\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/57093605
+SUMMARY:U13🏀 practice
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:50\nMødested: Hallen
+SEQUENCE:1791278980
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20261012T163000Z
+DTSTART;VALUE=DATE-TIME:20261012T150000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20261012T135659Z
+UID:activity57093612@holdsport
+DESCRIPTION:\nMødetid: 16:50\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/57093612
+SUMMARY:U13🏀 practice
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:50\nMødested: Hallen
+SEQUENCE:1791813419
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20261108T120000Z
+DTSTART;VALUE=DATE-TIME:20261108T083000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20261102T151710Z
+UID:activity56939674@holdsport
+DESCRIPTION:Program:\nKl. 09.30 - mødetid i hallen\nKl. 09.45 - opvarmnin
+ g\nKl. 10.00 - kamp mod Egaa Eagles\nKl. 11.00 - Egaa Eagles mod BMI\nKl
+ . 12.00 - kamp mod BMI\nKl. 13.00 - stævnet slutter. \n\nMødetid: 09:30\
+ nMødested: Feldballe hallen
+URL:https://www.holdsport.dk/activities/56939674
+SUMMARY:U13 🏀 GP stævne. Runde 2
+LOCATION:Feldballe hallen
+COMMENT:Program:\nKl. 09.30 - mødetid i hallen\nKl. 09.45 - opvarmning\nK
+ l. 10.00 - kamp mod Egaa Eagles\nKl. 11.00 - Egaa Eagles mod BMI\nKl. 12
+ .00 - kamp mod BMI\nKl. 13.00 - stævnet slutter. \n\nMødetid: 09:30\nMød
+ ested: Feldballe hallen
+SEQUENCE:1793632630
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20261116T173000Z
+DTSTART;VALUE=DATE-TIME:20261116T160000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20261115T124427Z
+UID:activity57459452@holdsport
+DESCRIPTION:\nMødetid: 16:55\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/57459452
+SUMMARY:🏀U13 practice
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:55\nMødested: Hallen
+SEQUENCE:1794746667
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20261118T173000Z
+DTSTART;VALUE=DATE-TIME:20261118T160000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20261117T202304Z
+UID:activity57459453@holdsport
+DESCRIPTION:\nMødetid: 16:55\nMødested: Hallen
+URL:https://www.holdsport.dk/activities/57459453
+SUMMARY:🏀U13 practice
+LOCATION:Feldballe hallen
+COMMENT:\nMødetid: 16:55\nMødested: Hallen
+SEQUENCE:1794946984
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20261129T120000Z
+DTSTART;VALUE=DATE-TIME:20261129T090000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20261115T175218Z
+UID:activity56939594@holdsport
+DESCRIPTION:Program:\nKl. 09.00 ca. - afgang Djursland \nKl. 09.30 - møde
+ tid i Vejlby-Risskov hallen\, hal 2. \nKl. 09.45 - opvarmning\nKl. 10.00
+  - kamp mod AGF\nKl. 11.00 - kamp mod Skovbakken Bears\nKl. 12.00 - kamp
+  mod Herning\nKl. 13.00 - stævnet slutter og afgang mod Djursland. \n\nM
+ ødetid: 09:30\nMødested: Vejlby-Risskov hallen
+URL:https://www.holdsport.dk/activities/56939594
+SUMMARY:U13🏀 GP stævne\, runde 3.
+LOCATION:Vejlby-Risskov hallen\, hal 2
+COMMENT:Program:\nKl. 09.00 ca. - afgang Djursland \nKl. 09.30 - mødetid 
+ i Vejlby-Risskov hallen\, hal 2. \nKl. 09.45 - opvarmning\nKl. 10.00 - k
+ amp mod AGF\nKl. 11.00 - kamp mod Skovbakken Bears\nKl. 12.00 - kamp mod
+  Herning\nKl. 13.00 - stævnet slutter og afgang mod Djursland. \n\nMødet
+ id: 09:30\nMødested: Vejlby-Risskov hallen
+SEQUENCE:1794765138
+END:VEVENT
+BEGIN:VEVENT
+DTEND;VALUE=DATE-TIME:20261216T173000Z
+DTSTART;VALUE=DATE-TIME:20261216T160000Z
+DTSTAMP;VALUE=DATE-TIME:20261118T015654Z
+LAST-MODIFIED;VALUE=DATE-TIME:20261006T092940Z
+UID:activity56951330@holdsport
+DESCRIPTION:Husk gave til en værdi af 40 kr.🎁 🎄\n\nMødetid: 16:50\nMødest
+ ed: Hallen
+URL:https://www.holdsport.dk/activities/56951330
+SUMMARY:Fælles juleafslutning 
+LOCATION:Feldballe hallen
+COMMENT:Husk gave til en værdi af 40 kr.🎁 🎄\n\nMødetid: 16:50\nMødested: 
+ Hallen
+SEQUENCE:1791278980
+END:VEVENT
+END:VCALENDAR
