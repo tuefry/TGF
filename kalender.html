@@ -133,8 +133,15 @@
           .then(function(text) {
             try {
               var jcal = ICAL.parse(text);
-              var vcalendar = new ICAL.Component(jcal[0]);
+              // ICAL.parse() returns the VCALENDAR jCal array directly. Guard
+              // against both shapes (bare array vs. array-of-components).
+              var vcalendar = Array.isArray(jcal) && jcal[0]
+                && Array.isArray(jcal[0]) ? new ICAL.Component(jcal[0])
+                : new ICAL.Component(jcal);
               var vevents = vcalendar.getAllSubcomponents('vevent');
+              if (!vevents.length) {
+                console.warn('Ingen VEVENTer fundet i ' + feed.file);
+              }
               var events = vevents.map(function(vevent) {
                 var dtstart = vevent.getFirstPropertyValue('dtstart');
                 var dtend = vevent.getFirstPropertyValue('dtend');
@@ -142,7 +149,7 @@
                   title: vevent.getFirstPropertyValue('summary') || 'Arrangement',
                   start: dtstart ? dtstart.toJSDate() : null,
                   end: dtend ? dtend.toJSDate() : null,
-                  allDay: dtstart ? dtstart.dateOnly : false,
+                  allDay: dtstart ? dtstart.isDate : false,
                   color: feed.color
                 };
               }).filter(function(e) { return e.start; });
