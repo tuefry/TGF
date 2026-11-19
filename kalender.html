@@ -77,12 +77,6 @@
           </p>
         </div>
 
-        <div class="calendar-labels" aria-label="Kalendermærkater">
-          <span>Træning</span>
-          <span>Stævne</span>
-          <span>Event</span>
-        </div>
-
         <div id="calendar" style="max-width: 1100px; margin: 2rem auto;"></div>
       </div>
     </section>
@@ -109,16 +103,35 @@
           center: 'title',
           right: 'dayGridMonth,timeGridWeek,listMonth'
         },
-        height: 'auto'
+        height: 'auto',
+        eventDisplayOptions: {
+          startTime: true,
+          endTime: true
+        },
+        eventContent: function(arg) {
+          var el = document.createElement('div');
+          el.className = 'fc-event-main';
+          var title = document.createElement('div');
+          title.className = 'fc-event-title';
+          title.textContent = arg.event.title;
+          el.appendChild(title);
+          if (arg.event.extendedProps.location) {
+            var loc = document.createElement('div');
+            loc.className = 'fc-event-location';
+            loc.textContent = arg.event.extendedProps.location;
+            el.appendChild(loc);
+          }
+          return { domNodes: [el] };
+        }
       });
       calendar.render();
 
-      // Holdsport ICS feeds (synced into ./data/ by GitHub Actions every hour)
+// Holdsport ICS feeds (synced into ./data/ by GitHub Actions every hour)
       var feeds = [
-        { file: 'data/team1.ics', color: '#d9232e' },
-        { file: 'data/team2.ics', color: '#1e293b' }
+        { file: 'data/team1.ics', color: '#4CB050' },
+        { file: 'data/team2.ics', color: '#03440C' }
         // link3 indsættes når den er tilgængelig:
-        // { file: './data/team3.ics', color: '#eab308' }
+        // { file: './data/team3.ics', color: '#7BD16F' }
       ];
 
       // iCal.js exports its API as window.ICAL (or window.ical in some builds)
@@ -150,6 +163,7 @@
                   start: dtstart ? dtstart.toJSDate() : null,
                   end: dtend ? dtend.toJSDate() : null,
                   allDay: dtstart ? dtstart.isDate : false,
+                  location: vevent.getFirstPropertyValue('location') || '',
                   color: feed.color
                 };
               }).filter(function(e) { return e.start; });
